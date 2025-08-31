@@ -1,0 +1,31 @@
+/* src/pages/NotFound.css */
+.notfound-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 60px);
+  text-align: center;
+  background-color: var(--background-color);
+}
+
+.notfound-page h1 {
+  font-size: 6rem;
+  margin-bottom: 1rem;
+  font-family: var(--font-heading);
+}
+
+.notfound-page p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.notfound-page a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.notfound-page a:hover {
+  text-decoration: underline;
+}

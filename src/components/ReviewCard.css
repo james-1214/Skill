@@ -1,0 +1,17 @@
+/* src/components/ReviewCard.css */
+.review-card {
+  background-color: #fff;
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-bottom: 1rem;
+}
+
+.review-card h4 {
+  margin-bottom: 0.5rem;
+  font-family: var(--font-heading);
+}
+
+.review-card p {
+  margin-bottom: 0.3rem;
+}

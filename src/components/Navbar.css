@@ -1,0 +1,52 @@
+/* src/components/Navbar.css */
+.navbar {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.logo {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.nav-links a {
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: var(--accent-color);
+}
+
+.btn-logout {
+  background: transparent;
+  border: 1px solid #fff;
+  padding: 0.3rem 0.7rem;
+  border-radius: var(--border-radius);
+  color: #fff;
+  transition: background 0.3s;
+}
+
+.btn-logout:hover {
+  background-color: #fff;
+  color: var(--primary-color);
+}

@@ -1,0 +1,9 @@
+/* src/styles/variables.css */
+:root {
+  --primary-color: #007BFF;
+  --secondary-color: #6C757D;
+  --accent-color: #FF5722;
+  --background-color: #F5F5F5;
+  --border-radius: 8px;
+  --font-heading: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
